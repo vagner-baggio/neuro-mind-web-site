@@ -1,4 +1,3 @@
-
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
   return <footer className="bg-slate-800 text-white py-12">
@@ -10,16 +9,14 @@ export const Footer = () => {
               Neuropsicólogo especialista em transtornos do neurodesenvolvimento, 
               dedicado a promover qualidade de vida através de cuidados especializados.
             </p>
-            <p className="text-slate-400 text-sm">
-              CRP: 06/123456
-            </p>
+            <p className="text-slate-400 text-sm">CRP: 12/27848</p>
           </div>
 
           <div>
             <h4 className="text-lg font-semibold mb-4">Contato</h4>
             <div className="space-y-2 text-slate-300">
               <p>(48) 99829-4338</p>
-              <p>contato@drjacksoncosta.com</p>
+              <p>jacksoncosta.neuropsi@gmail.com</p>
               <p>Florianópolis Centro/Coqueiros – SC</p>
             </div>
           </div>

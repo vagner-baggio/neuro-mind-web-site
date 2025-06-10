@@ -1,11 +1,8 @@
-
 import { Phone, Mail, MapPin } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { WhatsAppButton } from "./WhatsAppButton";
-
 export const ContactSection = () => {
-  return (
-    <section id="contato" className="py-16 lg:py-24 bg-slate-50">
+  return <section id="contato" className="py-16 lg:py-24 bg-slate-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4 text-slate-800">
           Agende sua consulta
@@ -22,26 +19,18 @@ export const ContactSection = () => {
               </div>
               <h3 className="font-semibold mb-2 text-slate-800">WhatsApp</h3>
               <p className="text-slate-600 mb-4">(48) 99829-4338</p>
-              <WhatsAppButton 
-                phoneNumber="5548998294338"
-                message="Olá Dr. Jackson! Gostaria de agendar uma consulta."
-                text="Chamar no WhatsApp"
-                size="sm"
-              />
+              <WhatsAppButton phoneNumber="5548998294338" message="Olá Dr. Jackson! Gostaria de agendar uma consulta." text="Chamar no WhatsApp" size="sm" />
             </CardContent>
           </Card>
 
           <Card className="text-center p-6 hover:shadow-lg transition-shadow border-slate-200 hover:border-blue-300">
-            <CardContent className="pt-6">
+            <CardContent className="pt-6 px-[9px]">
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Mail className="w-8 h-8 text-green-600" />
               </div>
               <h3 className="font-semibold mb-2 text-slate-800">E-mail</h3>
-              <p className="text-slate-600 mb-4">contato@drjacksoncosta.com</p>
-              <a 
-                href="mailto:contato@drjacksoncosta.com"
-                className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors"
-              >
+              <p className="text-slate-600 mb-4 mx-0 my-[26px] py-[6px] px-0">jacksoncosta.neuropsi@gmailcom</p>
+              <a href="mailto:contato@drjacksoncosta.com" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors">
                 Enviar E-mail
               </a>
             </CardContent>
@@ -54,12 +43,7 @@ export const ContactSection = () => {
               </div>
               <h3 className="font-semibold mb-2 text-slate-800">Localização</h3>
               <p className="text-slate-600 mb-4">Florianópolis Centro/Coqueiros – SC</p>
-              <a 
-                href="https://maps.google.com/search/Florianópolis+Centro+Coqueiros"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors"
-              >
+              <a href="https://maps.google.com/search/Florianópolis+Centro+Coqueiros" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors">
                 Ver no Mapa
               </a>
             </CardContent>
@@ -77,6 +61,5 @@ export const ContactSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
