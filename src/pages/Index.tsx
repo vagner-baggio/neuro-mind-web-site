@@ -25,7 +25,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
             <div className="flex-shrink-0">
-              <div className="w-48 h-48 lg:w-64 lg:h-64 bg-gradient-to-br from-blue-200 to-slate-300 flex items-center justify-center text-6xl lg:text-8xl shadow-lg rounded-sm bg-slate-50"></div>
+              <div className="w-48 h-48 lg:w-64 lg:h-64 bg-gradient-to-br from-blue-200 to-slate-300 flex items-center justify-center text-6xl lg:text-8xl shadow-lg rounded-full bg-gray-50"></div>
             </div>
             <div className="text-center lg:text-left flex-1">
               <h1 className="text-3xl lg:text-5xl font-bold text-slate-800 mb-3">Dr. Jackson Costa
