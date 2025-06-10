@@ -1,5 +1,5 @@
 
-import { Phone, Mail, MapPin, WhatsApp } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
@@ -88,19 +88,27 @@ const Index = () => {
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="text-lg leading-relaxed mb-6">
-                Sou neuropsicólogo com mais de 10 anos de experiência no atendimento de crianças, 
-                adolescentes e adultos com transtornos do neurodesenvolvimento. Minha abordagem é 
-                baseada em evidências científicas e focada nas necessidades individuais de cada paciente.
+                Dr Jackson Costa é graduado em psicologia, especialista em avaliação psicológica, 
+                Neuropsicologia, reabilitação neuropsicológica, Terapia Cognitivo-Comportamental e 
+                Análise do Comportamento Aplicada ao Transtorno do Espectro Autista (TEA), mestre em 
+                transtornos do neurodesenvolvimento, mestrando em transtorno do espectro do autismo pela ISEP Espanha.
               </p>
               <p className="text-lg leading-relaxed mb-6">
-                Especializo-me em avaliação neuropsicológica, diagnóstico e intervenção em TDAH, 
-                Transtorno do Espectro Autista, Dislexia, e outros transtornos que afetam o 
-                desenvolvimento cognitivo e comportamental.
+                Atende pacientes de todas as idades, com um olhar atento e acolhedor para a neurodiversidade, 
+                tanto na infância quanto na vida adulta. Com expertise e vivência pessoal como TEA nível 1, 
+                dedica-se a promover o desenvolvimento saudável de crianças neurodiversas, garantindo que tenham 
+                acesso aos apoios necessários para seu crescimento.
+              </p>
+              <p className="text-lg leading-relaxed mb-6">
+                É também palestrante, compartilhando seu conhecimento sobre neurodiversidade e orientando pais, 
+                professores e instituições de ensino sobre a importância de um olhar inclusivo e informado em 
+                creches, escolas e universidades em todo o país.
               </p>
               <p className="text-lg leading-relaxed">
-                Acredito que cada pessoa tem seu potencial único, e meu trabalho é ajudar a 
-                identificar e desenvolver essas capacidades, promovendo qualidade de vida e 
-                bem-estar para pacientes e suas famílias.
+                Seu trabalho é pautado por uma abordagem profunda e personalizada, focada no entendimento do 
+                funcionamento cognitivo de cada paciente, visando ao autoconhecimento, tratamento eficaz e 
+                aceitação. Natural de Florianópolis, é casado e pai de três filhos, que inspiram diariamente 
+                sua dedicação à causa da neurodiversidade. Atende em Florianópolis Centro/Coqueiros e on-line.
               </p>
             </div>
           </div>
