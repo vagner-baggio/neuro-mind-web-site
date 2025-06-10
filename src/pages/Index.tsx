@@ -50,14 +50,14 @@ CRP12/27848</h1>
               Sobre Mim
             </h2>
             <div className="prose prose-lg max-w-none text-slate-600">
-              <p className="text-lg leading-relaxed mb-6">Dr Jackson Costa é graduado em psicologia, especialista em Avaliação Psicológica, Neuropsicologia, reabilitação neuropsicológica, Terapia Cognitivo-Comportamental e Análise do Comportamento Aplicada ao Transtorno do Espectro Autista (TEA), mestre em transtornos do neurodesenvolvimento, mestrando em transtorno do espectro do autismo pela ISEP Espanha.</p>
-              <p className="text-lg leading-relaxed mb-6">Atende pacientes de todas as idades, com um olhar atento e acolhedor para a neurodiversidade, tanto na infância quanto na vida adulta. Com expertise e vivência pessoal como TEA nível 1, dedica-se a promover o desenvolvimento saudável de crianças neurodiversas, garantindo que tenham acesso aos apoios necessários para seu crescimento. Faz Avaliação Psicológica para procedimentos Pré Cirúrgicos como Bariátrica e Contracepção Definitiva, entre outros.</p>
-              <p className="text-lg leading-relaxed mb-6">
+              <p className="text-lg leading-relaxed mb-6 text-justify">Dr Jackson Costa é graduado em psicologia, especialista em Avaliação Psicológica, Neuropsicologia, reabilitação neuropsicológica, Terapia Cognitivo-Comportamental e Análise do Comportamento Aplicada ao Transtorno do Espectro Autista (TEA), mestre em transtornos do neurodesenvolvimento, mestrando em transtorno do espectro do autismo pela ISEP Espanha.</p>
+              <p className="text-lg leading-relaxed mb-6 text-justify">Atende pacientes de todas as idades, com um olhar atento e acolhedor para a neurodiversidade, tanto na infância quanto na vida adulta. Com expertise e vivência pessoal como TEA nível 1, dedica-se a promover o desenvolvimento saudável de crianças neurodiversas, garantindo que tenham acesso aos apoios necessários para seu crescimento. Faz Avaliação Psicológica para procedimentos Pré Cirúrgicos como Bariátrica e Contracepção Definitiva, entre outros.</p>
+              <p className="text-lg leading-relaxed mb-6 text-justify">
                 É também palestrante, compartilhando seu conhecimento sobre neurodiversidade e orientando pais, 
                 professores e instituições de ensino sobre a importância de um olhar inclusivo e informado em 
                 creches, escolas e universidades em todo o país.
               </p>
-              <p className="text-lg leading-relaxed mb-6">
+              <p className="text-lg leading-relaxed mb-6 text-justify">
                 Seu trabalho é pautado por uma abordagem profunda e personalizada, focada no entendimento do 
                 funcionamento cognitivo de cada paciente, visando ao autoconhecimento, tratamento eficaz e 
                 aceitação. Natural de Florianópolis, é casado e pai de três filhos, que inspiram diariamente 
