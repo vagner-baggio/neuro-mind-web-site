@@ -11,68 +11,49 @@ const Index = () => {
   const services = [
     {
       title: "Avaliação Neuropsicológica",
-      description: "Avaliação completa das funções cognitivas para diagnóstico preciso de transtornos do neurodesenvolvimento.",
+      description: "TDAH, TEA, SDAH e avaliações pré-cirúrgicas. Diagnóstico preciso para orientar o melhor tratamento.",
       icon: "🧠"
     },
     {
-      title: "Intervenção em TDAH",
-      description: "Tratamento especializado para crianças e adolescentes com Transtorno do Déficit de Atenção e Hiperatividade.",
-      icon: "🎯"
-    },
-    {
-      title: "Reabilitação Cognitiva",
-      description: "Programas personalizados para desenvolvimento e fortalecimento de habilidades cognitivas específicas.",
-      icon: "🔄"
-    },
-    {
-      title: "Orientação Familiar",
-      description: "Suporte e orientação para famílias no manejo de transtornos do neurodesenvolvimento.",
+      title: "Orientação a Pais e Escolas",
+      description: "Suporte especializado para famílias e instituições de ensino sobre neurodiversidade e inclusão.",
       icon: "👨‍👩‍👧‍👦"
     },
     {
-      title: "Consultoria Escolar",
-      description: "Assessoria para instituições de ensino na inclusão e adaptação pedagógica.",
-      icon: "🏫"
-    },
-    {
-      title: "Laudos e Relatórios",
-      description: "Elaboração de documentos técnicos para fins educacionais, clínicos e legais.",
-      icon: "📋"
+      title: "Palestras",
+      description: "Compartilho conhecimento sobre neurodiversidade em creches, escolas e universidades por todo o país.",
+      icon: "🎤"
     }
   ];
 
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="bg-gradient-to-r from-slate-50 to-blue-50 py-16 lg:py-24">
+      <header className="bg-gradient-to-br from-blue-50 via-slate-50 to-blue-100 py-16 lg:py-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
             <div className="flex-shrink-0">
-              <div className="w-48 h-48 lg:w-64 lg:h-64 rounded-full bg-gradient-to-br from-blue-100 to-slate-200 flex items-center justify-center text-6xl lg:text-8xl">
+              <div className="w-48 h-48 lg:w-64 lg:h-64 rounded-full bg-gradient-to-br from-blue-200 to-slate-300 flex items-center justify-center text-6xl lg:text-8xl shadow-lg">
                 👨‍⚕️
               </div>
             </div>
             <div className="text-center lg:text-left flex-1">
-              <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-4">
+              <h1 className="text-3xl lg:text-5xl font-bold text-slate-800 mb-3">
                 Dr. Jackson Costa
               </h1>
-              <p className="text-xl lg:text-2xl text-muted-foreground mb-2">
-                Neuropsicólogo
-              </p>
-              <p className="text-lg lg:text-xl text-muted-foreground mb-8">
-                Especialista em Transtornos do Neurodesenvolvimento
+              <h2 className="text-xl lg:text-2xl text-blue-700 font-semibold mb-2">
+                Neuropsicólogo | Especialista em Neurodiversidade e TEA
+              </h2>
+              <p className="text-lg lg:text-xl text-slate-600 mb-8 max-w-2xl">
+                Avaliação neuropsicológica e terapia para crianças e adultos em Florianópolis e online
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <WhatsAppButton 
-                  phoneNumber="5511999999999"
+                  phoneNumber="5548982943338"
                   message="Olá Dr. Jackson! Gostaria de agendar uma consulta."
+                  text="Agende sua consulta via WhatsApp"
                   size="lg"
                 />
-                <Button variant="outline" size="lg" asChild>
-                  <a href="#sobre" className="inline-flex items-center gap-2">
-                    Saiba Mais
-                  </a>
-                </Button>
               </div>
             </div>
           </div>
@@ -80,13 +61,13 @@ const Index = () => {
       </header>
 
       {/* Sobre Mim */}
-      <section id="sobre" className="py-16 lg:py-24">
+      <section id="sobre" className="py-16 lg:py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12 text-slate-800">
               Sobre Mim
             </h2>
-            <div className="prose prose-lg max-w-none text-muted-foreground">
+            <div className="prose prose-lg max-w-none text-slate-600">
               <p className="text-lg leading-relaxed mb-6">
                 Dr Jackson Costa é graduado em psicologia, especialista em avaliação psicológica, 
                 Neuropsicologia, reabilitação neuropsicológica, Terapia Cognitivo-Comportamental e 
@@ -104,28 +85,46 @@ const Index = () => {
                 professores e instituições de ensino sobre a importância de um olhar inclusivo e informado em 
                 creches, escolas e universidades em todo o país.
               </p>
-              <p className="text-lg leading-relaxed">
+              <p className="text-lg leading-relaxed mb-6">
                 Seu trabalho é pautado por uma abordagem profunda e personalizada, focada no entendimento do 
                 funcionamento cognitivo de cada paciente, visando ao autoconhecimento, tratamento eficaz e 
                 aceitação. Natural de Florianópolis, é casado e pai de três filhos, que inspiram diariamente 
-                sua dedicação à causa da neurodiversidade. Atende em Florianópolis Centro/Coqueiros e on-line.
+                sua dedicação à causa da neurodiversidade.
               </p>
+              <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
+                <p className="text-lg font-medium text-blue-800">
+                  📍 Atendimento presencial (Florianópolis Centro/Coqueiros) e online.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Certificações */}
+      <section className="py-12 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center gap-6">
+            <div className="bg-white px-6 py-3 rounded-full shadow-sm border border-blue-200">
+              <span className="text-blue-700 font-semibold">🏆 Especialista em Neurodesenvolvimento</span>
+            </div>
+            <div className="bg-white px-6 py-3 rounded-full shadow-sm border border-blue-200">
+              <span className="text-blue-700 font-semibold">🧩 Especialista em Transtorno do Espectro Autista</span>
             </div>
           </div>
         </div>
       </section>
 
       {/* Serviços */}
-      <section id="servicos" className="py-16 lg:py-24 bg-slate-50">
+      <section id="servicos" className="py-16 lg:py-24 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4">
-            Serviços
+          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4 text-slate-800">
+            Como posso ajudar você?
           </h2>
-          <p className="text-lg text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-            Ofereço uma gama completa de serviços especializados em neuropsicologia, 
-            com foco em transtornos do neurodesenvolvimento.
+          <p className="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">
+            Oferecemos cuidado especializado e personalizado para cada necessidade.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
             {services.map((service, index) => (
               <ServiceCard 
                 key={index}
@@ -137,9 +136,10 @@ const Index = () => {
           </div>
           <div className="text-center mt-12">
             <WhatsAppButton 
-              phoneNumber="5511999999999"
+              phoneNumber="5548982943338"
               message="Olá Dr. Jackson! Gostaria de saber mais sobre seus serviços."
-              text="Agende sua Consulta"
+              text="Fale diretamente comigo no WhatsApp"
+              size="lg"
             />
           </div>
         </div>
@@ -154,7 +154,7 @@ const Index = () => {
       {/* WhatsApp Flutuante */}
       <div className="fixed bottom-6 right-6 z-50">
         <WhatsAppButton 
-          phoneNumber="5511999999999"
+          phoneNumber="5548982943338"
           message="Olá Dr. Jackson! Gostaria de conversar."
           variant="floating"
         />
