@@ -1,4 +1,3 @@
-
 import { Phone, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -6,28 +5,21 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { ServiceCard } from "@/components/ServiceCard";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
-
 const Index = () => {
-  const services = [
-    {
-      title: "Avaliação Neuropsicológica",
-      description: "TDAH, TEA, SDAH e avaliações pré-cirúrgicas. Diagnóstico preciso para orientar o melhor tratamento.",
-      icon: "🧠"
-    },
-    {
-      title: "Orientação a Pais e Escolas",
-      description: "Suporte especializado para famílias e instituições de ensino sobre neurodiversidade e inclusão.",
-      icon: "👨‍👩‍👧‍👦"
-    },
-    {
-      title: "Palestras",
-      description: "Compartilho conhecimento sobre neurodiversidade em creches, escolas e universidades por todo o país.",
-      icon: "🎤"
-    }
-  ];
-
-  return (
-    <div className="min-h-screen bg-background">
+  const services = [{
+    title: "Avaliação Neuropsicológica",
+    description: "TDAH, TEA, SDAH e avaliações pré-cirúrgicas. Diagnóstico preciso para orientar o melhor tratamento.",
+    icon: "🧠"
+  }, {
+    title: "Orientação a Pais e Escolas",
+    description: "Suporte especializado para famílias e instituições de ensino sobre neurodiversidade e inclusão.",
+    icon: "👨‍👩‍👧‍👦"
+  }, {
+    title: "Palestras",
+    description: "Compartilho conhecimento sobre neurodiversidade em creches, escolas e universidades por todo o país.",
+    icon: "🎤"
+  }];
+  return <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="bg-gradient-to-br from-blue-50 via-slate-50 to-blue-100 py-16 lg:py-24">
         <div className="container mx-auto px-4">
@@ -38,9 +30,8 @@ const Index = () => {
               </div>
             </div>
             <div className="text-center lg:text-left flex-1">
-              <h1 className="text-3xl lg:text-5xl font-bold text-slate-800 mb-3">
-                Dr. Jackson Costa
-              </h1>
+              <h1 className="text-3xl lg:text-5xl font-bold text-slate-800 mb-3">Dr. Jackson Costa
+CRP12/27848</h1>
               <h2 className="text-xl lg:text-2xl text-blue-700 font-semibold mb-2">
                 Neuropsicólogo | Especialista em Transtornos do Neurodesenvolvimento
               </h2>
@@ -48,12 +39,7 @@ const Index = () => {
                 Avaliação neuropsicológica e terapia para crianças e adultos em Florianópolis e online
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <WhatsAppButton 
-                  phoneNumber="5548998294338"
-                  message="Olá Dr. Jackson! Gostaria de agendar uma consulta."
-                  text="Agende sua consulta via WhatsApp"
-                  size="lg"
-                />
+                <WhatsAppButton phoneNumber="5548998294338" message="Olá Dr. Jackson! Gostaria de agendar uma consulta." text="Agende sua consulta via WhatsApp" size="lg" />
               </div>
             </div>
           </div>
@@ -125,22 +111,10 @@ const Index = () => {
             Oferecemos cuidado especializado e personalizado para cada necessidade.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
-            {services.map((service, index) => (
-              <ServiceCard 
-                key={index}
-                title={service.title}
-                description={service.description}
-                icon={service.icon}
-              />
-            ))}
+            {services.map((service, index) => <ServiceCard key={index} title={service.title} description={service.description} icon={service.icon} />)}
           </div>
           <div className="text-center mt-12">
-            <WhatsAppButton 
-              phoneNumber="5548998294338"
-              message="Olá Dr. Jackson! Gostaria de saber mais sobre seus serviços."
-              text="Fale diretamente comigo no WhatsApp"
-              size="lg"
-            />
+            <WhatsAppButton phoneNumber="5548998294338" message="Olá Dr. Jackson! Gostaria de saber mais sobre seus serviços." text="Fale diretamente comigo no WhatsApp" size="lg" />
           </div>
         </div>
       </section>
@@ -153,14 +127,8 @@ const Index = () => {
 
       {/* WhatsApp Flutuante */}
       <div className="fixed bottom-6 right-6 z-50">
-        <WhatsAppButton 
-          phoneNumber="5548998294338"
-          message="Olá Dr. Jackson! Gostaria de conversar."
-          variant="floating"
-        />
+        <WhatsAppButton phoneNumber="5548998294338" message="Olá Dr. Jackson! Gostaria de conversar." variant="floating" />
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
