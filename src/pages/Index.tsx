@@ -25,7 +25,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
             <div className="flex-shrink-0">
-              <div className="w-48 h-48 lg:w-64 lg:h-64 bg-gradient-to-br from-blue-200 to-slate-300 flex items-center justify-center text-6xl lg:text-8xl shadow-lg rounded-full bg-gray-50"></div>
+              
             </div>
             <div className="text-center lg:text-left flex-1">
               <h1 className="text-3xl lg:text-5xl font-bold text-slate-800 mb-3">Dr. Jackson Costa
@@ -50,12 +50,7 @@ CRP12/27848</h1>
               Sobre Mim
             </h2>
             <div className="prose prose-lg max-w-none text-slate-600">
-              <p className="text-lg leading-relaxed mb-6">
-                Dr Jackson Costa é graduado em psicologia, especialista em avaliação psicológica, 
-                Neuropsicologia, reabilitação neuropsicológica, Terapia Cognitivo-Comportamental e 
-                Análise do Comportamento Aplicada ao Transtorno do Espectro Autista (TEA), mestre em 
-                transtornos do neurodesenvolvimento, mestrando em transtorno do espectro do autismo pela ISEP Espanha.
-              </p>
+              <p className="text-lg leading-relaxed mb-6">Dr Jackson Costa é graduado em psicologia, especialista em Avaliação Psicológica, Neuropsicologia, reabilitação neuropsicológica, Terapia Cognitivo-Comportamental e Análise do Comportamento Aplicada ao Transtorno do Espectro Autista (TEA), mestre em transtornos do neurodesenvolvimento, mestrando em transtorno do espectro do autismo pela ISEP Espanha.</p>
               <p className="text-lg leading-relaxed mb-6">Atende pacientes de todas as idades, com um olhar atento e acolhedor para a neurodiversidade, tanto na infância quanto na vida adulta. Com expertise e vivência pessoal como TEA nível 1, dedica-se a promover o desenvolvimento saudável de crianças neurodiversas, garantindo que tenham acesso aos apoios necessários para seu crescimento. Faz Avaliação Psicológica para procedimentos Pré Cirúrgicos como Bariátrica e Contracepção Definitiva, entre outros.</p>
               <p className="text-lg leading-relaxed mb-6">
                 É também palestrante, compartilhando seu conhecimento sobre neurodiversidade e orientando pais, 

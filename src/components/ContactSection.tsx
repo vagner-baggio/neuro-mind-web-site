@@ -29,7 +29,7 @@ export const ContactSection = () => {
                 <Mail className="w-8 h-8 text-green-600" />
               </div>
               <h3 className="font-semibold mb-2 text-slate-800">E-mail</h3>
-              <p className="text-slate-600 mb-4 mx-0 my-[26px] py-[6px] px-0">jacksoncosta.neuropsi@gmailcom</p>
+              <p className="text-slate-600 mb-4 mx-0 my-[26px] py-[6px] px-0 text-center">jacksoncosta.neuropsi@gmailcom</p>
               <a href="mailto:contato@drjacksoncosta.com" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors">
                 Enviar E-mail
               </a>
