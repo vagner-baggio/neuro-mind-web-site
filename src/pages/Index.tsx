@@ -42,14 +42,14 @@ const Index = () => {
                 Dr. Jackson Costa
               </h1>
               <h2 className="text-xl lg:text-2xl text-blue-700 font-semibold mb-2">
-                Neuropsicólogo | Especialista em Neurodiversidade e TEA
+                Neuropsicólogo | Especialista em Transtornos do Neurodesenvolvimento
               </h2>
               <p className="text-lg lg:text-xl text-slate-600 mb-8 max-w-2xl">
                 Avaliação neuropsicológica e terapia para crianças e adultos em Florianópolis e online
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <WhatsAppButton 
-                  phoneNumber="5548982943338"
+                  phoneNumber="5548998294338"
                   message="Olá Dr. Jackson! Gostaria de agendar uma consulta."
                   text="Agende sua consulta via WhatsApp"
                   size="lg"
@@ -136,7 +136,7 @@ const Index = () => {
           </div>
           <div className="text-center mt-12">
             <WhatsAppButton 
-              phoneNumber="5548982943338"
+              phoneNumber="5548998294338"
               message="Olá Dr. Jackson! Gostaria de saber mais sobre seus serviços."
               text="Fale diretamente comigo no WhatsApp"
               size="lg"
@@ -154,7 +154,7 @@ const Index = () => {
       {/* WhatsApp Flutuante */}
       <div className="fixed bottom-6 right-6 z-50">
         <WhatsAppButton 
-          phoneNumber="5548982943338"
+          phoneNumber="5548998294338"
           message="Olá Dr. Jackson! Gostaria de conversar."
           variant="floating"
         />

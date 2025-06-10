@@ -20,7 +20,7 @@ export const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contato</h4>
             <div className="space-y-2 text-slate-300">
-              <p>(48) 98294-3338</p>
+              <p>(48) 99829-4338</p>
               <p>contato@drjacksoncosta.com</p>
               <p>Florianópolis Centro/Coqueiros – SC</p>
             </div>

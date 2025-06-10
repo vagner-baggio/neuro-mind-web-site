@@ -21,9 +21,9 @@ export const ContactSection = () => {
                 <Phone className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="font-semibold mb-2 text-slate-800">WhatsApp</h3>
-              <p className="text-slate-600 mb-4">(48) 98294-3338</p>
+              <p className="text-slate-600 mb-4">(48) 99829-4338</p>
               <WhatsAppButton 
-                phoneNumber="5548982943338"
+                phoneNumber="5548998294338"
                 message="Olá Dr. Jackson! Gostaria de agendar uma consulta."
                 text="Chamar no WhatsApp"
                 size="sm"
