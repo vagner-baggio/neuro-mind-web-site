@@ -25,9 +25,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
             <div className="flex-shrink-0">
-              <div className="w-48 h-48 lg:w-64 lg:h-64 rounded-full bg-gradient-to-br from-blue-200 to-slate-300 flex items-center justify-center text-6xl lg:text-8xl shadow-lg">
-                👨‍⚕️
-              </div>
+              <div className="w-48 h-48 lg:w-64 lg:h-64 bg-gradient-to-br from-blue-200 to-slate-300 flex items-center justify-center text-6xl lg:text-8xl shadow-lg rounded-lg bg-slate-50"></div>
             </div>
             <div className="text-center lg:text-left flex-1">
               <h1 className="text-3xl lg:text-5xl font-bold text-slate-800 mb-3">Dr. Jackson Costa
@@ -35,9 +33,7 @@ CRP12/27848</h1>
               <h2 className="text-xl lg:text-2xl text-blue-700 font-semibold mb-2">
                 Neuropsicólogo | Especialista em Transtornos do Neurodesenvolvimento
               </h2>
-              <p className="text-lg lg:text-xl text-slate-600 mb-8 max-w-2xl">
-                Avaliação neuropsicológica e terapia para crianças e adultos em Florianópolis e online
-              </p>
+              <p className="text-lg lg:text-xl text-slate-600 mb-8 max-w-2xl">Avaliação neuropsicológica para crianças e adultos em Florianópolis e online</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <WhatsAppButton phoneNumber="5548998294338" message="Olá Dr. Jackson! Gostaria de agendar uma consulta." text="Agende sua consulta via WhatsApp" size="lg" />
               </div>
